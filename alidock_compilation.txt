@@ -1,0 +1,252 @@
+[O2/latest-dev-o2] ~/O2/macro/test $> ./run_clus_mft.sh 10 100 TGeant3
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.14/04                http://root.cern.ch |
+  |                               (c) 1995-2018, The ROOT Team |
+  | Built for linuxx8664gcc                                    |
+  | From tag v6-14-04, 23 August 2018                          |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+Error in <TUnixSystem::FindDynamicLibrary>: libQCMerger[.so | .dll | .dylib | .sl | .dl | .a] does not exist in /home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/lib:/home/alidock/.sw/slc7_x86-64/libInfoLogger/v1.0.5-13/lib:/home/alidock/.sw/slc7_x86-64/Common-O2/v1.4.0-1/lib:/home/alidock/.sw/slc7_x86-64/Configuration/v2.2.0-3/lib:/home/alidock/.sw/slc7_x86-64/Ppconsul/0.0.2-11/lib:/home/alidock/.sw/slc7_x86-64/Monitoring/v2.2.0-1/lib:/home/alidock/.sw/slc7_x86-64/HepMC3/v3.0.0-git_d43693ce0e-15/lib:/home/alidock/.sw/slc7_x86-64/Vc/1.3.3-alice2-6/lib:/home/alidock/.sw/slc7_x86-64/FairRoot/c672f280ec-24/lib:/home/alidock/.sw/slc7_x86-64/pythia/v8235-alice2-1/lib:/home/alidock/.sw/slc7_x86-64/lhapdf/v6.2.1-alice2-6/lib:/home/alidock/.sw/slc7_x86-64/yaml-cpp/yaml-cpp-0.6.2-5/lib:/home/alidock/.sw/slc7_x86-64/pythia6/428-alice1-10/lib:/home/alidock/.sw/slc7_x86-64/protobuf/v3.5.2-6/lib:/home/alidock/.sw/slc7_x86-64/GEANT4_VMC/v3-6-p1-12/lib:/home/alidock/.sw/slc7_x86-64/vgm/v4-4-39/lib:/home/alidock/.sw/slc7_x86-64/GEANT4/v10.4.2-2/lib:/home/alidock/.sw/slc7_x86-64/GEANT3/v2-6-8/lib64:/home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib:/home/alidock/.sw/slc7_x86-64/lzma/v5.2.3-8/lib:/home/alidock/.sw/slc7_x86-64/arrow/v0.12.0-alice6-2/lib:/home/alidock/.sw/slc7_x86-64/Python-modules/1.0-25/lib:/home/alidock/.sw/slc7_x86-64/Python-modules/1.0-25/lib64:/home/alidock/.sw/slc7_x86-64/GSL/v1.16-34/lib:/home/alidock/.sw/slc7_x86-64/libxml2/v2.9.3-13/lib:/home/alidock/.sw/slc7_x86-64/OpenSSL/v1.0.2o-8/lib:/home/alidock/.sw/slc7_x86-64/zlib/v1.2.8-45/lib:/home/alidock/.sw/slc7_x86-64/FairMQ/v1.3.8-3/lib:/home/alidock/.sw/slc7_x86-64/DDS/2.2-4/lib:/home/alidock/.sw/slc7_x86-64/msgpack/v3.1.1-3/lib:/home/alidock/.sw/slc7_x86-64/nanomsg/1.1.3-5/lib:/home/alidock/.sw/slc7_x86-64/ZeroMQ/v4.1.5-12/lib:/home/alidock/.sw/slc7_x86-64/boost/v1.68.0-8/lib:/home/alidock/.sw/slc7_x86-64/Python/v2.7.10-42/lib:/home/alidock/.sw/slc7_x86-64/FreeType/v2.6-41/lib:/home/alidock/.sw/slc7_x86-64/libpng/v1.6.34-11/lib:/home/alidock/.sw/slc7_x86-64/GCC-Toolchain/v7.3.0-alice1-7/lib64:/home/alidock/.sw/slc7_x86-64/GCC-Toolchain/v7.3.0-alice1-7/lib:/home/alidock/.sw/slc7_x86-64/FairLogger/v1.2.0-7/lib:.:/home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib:/lib64/tls/x86_64:/lib64/tls:/lib64/x86_64:/lib64:/usr/lib64/tls/x86_64:/usr/lib64/tls:/usr/lib64/x86_64:/usr/lib64
+Error in <TUnixSystem::FindDynamicLibrary>: libQCMetricsExtractor[.so | .dll | .dylib | .sl | .dl | .a] does not exist in /home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/lib:/home/alidock/.sw/slc7_x86-64/libInfoLogger/v1.0.5-13/lib:/home/alidock/.sw/slc7_x86-64/Common-O2/v1.4.0-1/lib:/home/alidock/.sw/slc7_x86-64/Configuration/v2.2.0-3/lib:/home/alidock/.sw/slc7_x86-64/Ppconsul/0.0.2-11/lib:/home/alidock/.sw/slc7_x86-64/Monitoring/v2.2.0-1/lib:/home/alidock/.sw/slc7_x86-64/HepMC3/v3.0.0-git_d43693ce0e-15/lib:/home/alidock/.sw/slc7_x86-64/Vc/1.3.3-alice2-6/lib:/home/alidock/.sw/slc7_x86-64/FairRoot/c672f280ec-24/lib:/home/alidock/.sw/slc7_x86-64/pythia/v8235-alice2-1/lib:/home/alidock/.sw/slc7_x86-64/lhapdf/v6.2.1-alice2-6/lib:/home/alidock/.sw/slc7_x86-64/yaml-cpp/yaml-cpp-0.6.2-5/lib:/home/alidock/.sw/slc7_x86-64/pythia6/428-alice1-10/lib:/home/alidock/.sw/slc7_x86-64/protobuf/v3.5.2-6/lib:/home/alidock/.sw/slc7_x86-64/GEANT4_VMC/v3-6-p1-12/lib:/home/alidock/.sw/slc7_x86-64/vgm/v4-4-39/lib:/home/alidock/.sw/slc7_x86-64/GEANT4/v10.4.2-2/lib:/home/alidock/.sw/slc7_x86-64/GEANT3/v2-6-8/lib64:/home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib:/home/alidock/.sw/slc7_x86-64/lzma/v5.2.3-8/lib:/home/alidock/.sw/slc7_x86-64/arrow/v0.12.0-alice6-2/lib:/home/alidock/.sw/slc7_x86-64/Python-modules/1.0-25/lib:/home/alidock/.sw/slc7_x86-64/Python-modules/1.0-25/lib64:/home/alidock/.sw/slc7_x86-64/GSL/v1.16-34/lib:/home/alidock/.sw/slc7_x86-64/libxml2/v2.9.3-13/lib:/home/alidock/.sw/slc7_x86-64/OpenSSL/v1.0.2o-8/lib:/home/alidock/.sw/slc7_x86-64/zlib/v1.2.8-45/lib:/home/alidock/.sw/slc7_x86-64/FairMQ/v1.3.8-3/lib:/home/alidock/.sw/slc7_x86-64/DDS/2.2-4/lib:/home/alidock/.sw/slc7_x86-64/msgpack/v3.1.1-3/lib:/home/alidock/.sw/slc7_x86-64/nanomsg/1.1.3-5/lib:/home/alidock/.sw/slc7_x86-64/ZeroMQ/v4.1.5-12/lib:/home/alidock/.sw/slc7_x86-64/boost/v1.68.0-8/lib:/home/alidock/.sw/slc7_x86-64/Python/v2.7.10-42/lib:/home/alidock/.sw/slc7_x86-64/FreeType/v2.6-41/lib:/home/alidock/.sw/slc7_x86-64/libpng/v1.6.34-11/lib:/home/alidock/.sw/slc7_x86-64/GCC-Toolchain/v7.3.0-alice1-7/lib64:/home/alidock/.sw/slc7_x86-64/GCC-Toolchain/v7.3.0-alice1-7/lib:/home/alidock/.sw/slc7_x86-64/FairLogger/v1.2.0-7/lib:.:/home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib:/lib64/tls/x86_64:/lib64/tls:/lib64/x86_64:/lib64:/usr/lib64/tls/x86_64:/usr/lib64/tls:/usr/lib64/x86_64:/usr/lib64
+Error in <TUnixSystem::FindDynamicLibrary>: libQCProducer[.so | .dll | .dylib | .sl | .dl | .a] does not exist in /home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/lib:/home/alidock/.sw/slc7_x86-64/libInfoLogger/v1.0.5-13/lib:/home/alidock/.sw/slc7_x86-64/Common-O2/v1.4.0-1/lib:/home/alidock/.sw/slc7_x86-64/Configuration/v2.2.0-3/lib:/home/alidock/.sw/slc7_x86-64/Ppconsul/0.0.2-11/lib:/home/alidock/.sw/slc7_x86-64/Monitoring/v2.2.0-1/lib:/home/alidock/.sw/slc7_x86-64/HepMC3/v3.0.0-git_d43693ce0e-15/lib:/home/alidock/.sw/slc7_x86-64/Vc/1.3.3-alice2-6/lib:/home/alidock/.sw/slc7_x86-64/FairRoot/c672f280ec-24/lib:/home/alidock/.sw/slc7_x86-64/pythia/v8235-alice2-1/lib:/home/alidock/.sw/slc7_x86-64/lhapdf/v6.2.1-alice2-6/lib:/home/alidock/.sw/slc7_x86-64/yaml-cpp/yaml-cpp-0.6.2-5/lib:/home/alidock/.sw/slc7_x86-64/pythia6/428-alice1-10/lib:/home/alidock/.sw/slc7_x86-64/protobuf/v3.5.2-6/lib:/home/alidock/.sw/slc7_x86-64/GEANT4_VMC/v3-6-p1-12/lib:/home/alidock/.sw/slc7_x86-64/vgm/v4-4-39/lib:/home/alidock/.sw/slc7_x86-64/GEANT4/v10.4.2-2/lib:/home/alidock/.sw/slc7_x86-64/GEANT3/v2-6-8/lib64:/home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib:/home/alidock/.sw/slc7_x86-64/lzma/v5.2.3-8/lib:/home/alidock/.sw/slc7_x86-64/arrow/v0.12.0-alice6-2/lib:/home/alidock/.sw/slc7_x86-64/Python-modules/1.0-25/lib:/home/alidock/.sw/slc7_x86-64/Python-modules/1.0-25/lib64:/home/alidock/.sw/slc7_x86-64/GSL/v1.16-34/lib:/home/alidock/.sw/slc7_x86-64/libxml2/v2.9.3-13/lib:/home/alidock/.sw/slc7_x86-64/OpenSSL/v1.0.2o-8/lib:/home/alidock/.sw/slc7_x86-64/zlib/v1.2.8-45/lib:/home/alidock/.sw/slc7_x86-64/FairMQ/v1.3.8-3/lib:/home/alidock/.sw/slc7_x86-64/DDS/2.2-4/lib:/home/alidock/.sw/slc7_x86-64/msgpack/v3.1.1-3/lib:/home/alidock/.sw/slc7_x86-64/nanomsg/1.1.3-5/lib:/home/alidock/.sw/slc7_x86-64/ZeroMQ/v4.1.5-12/lib:/home/alidock/.sw/slc7_x86-64/boost/v1.68.0-8/lib:/home/alidock/.sw/slc7_x86-64/Python/v2.7.10-42/lib:/home/alidock/.sw/slc7_x86-64/FreeType/v2.6-41/lib:/home/alidock/.sw/slc7_x86-64/libpng/v1.6.34-11/lib:/home/alidock/.sw/slc7_x86-64/GCC-Toolchain/v7.3.0-alice1-7/lib64:/home/alidock/.sw/slc7_x86-64/GCC-Toolchain/v7.3.0-alice1-7/lib:/home/alidock/.sw/slc7_x86-64/FairLogger/v1.2.0-7/lib:.:/home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib:/lib64/tls/x86_64:/lib64/tls:/lib64/x86_64:/lib64:/usr/lib64/tls/x86_64:/usr/lib64/tls:/usr/lib64/x86_64:/usr/lib64
+Error in <TUnixSystem::FindDynamicLibrary>: libQCViewer[.so | .dll | .dylib | .sl | .dl | .a] does not exist in /home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/lib:/home/alidock/.sw/slc7_x86-64/libInfoLogger/v1.0.5-13/lib:/home/alidock/.sw/slc7_x86-64/Common-O2/v1.4.0-1/lib:/home/alidock/.sw/slc7_x86-64/Configuration/v2.2.0-3/lib:/home/alidock/.sw/slc7_x86-64/Ppconsul/0.0.2-11/lib:/home/alidock/.sw/slc7_x86-64/Monitoring/v2.2.0-1/lib:/home/alidock/.sw/slc7_x86-64/HepMC3/v3.0.0-git_d43693ce0e-15/lib:/home/alidock/.sw/slc7_x86-64/Vc/1.3.3-alice2-6/lib:/home/alidock/.sw/slc7_x86-64/FairRoot/c672f280ec-24/lib:/home/alidock/.sw/slc7_x86-64/pythia/v8235-alice2-1/lib:/home/alidock/.sw/slc7_x86-64/lhapdf/v6.2.1-alice2-6/lib:/home/alidock/.sw/slc7_x86-64/yaml-cpp/yaml-cpp-0.6.2-5/lib:/home/alidock/.sw/slc7_x86-64/pythia6/428-alice1-10/lib:/home/alidock/.sw/slc7_x86-64/protobuf/v3.5.2-6/lib:/home/alidock/.sw/slc7_x86-64/GEANT4_VMC/v3-6-p1-12/lib:/home/alidock/.sw/slc7_x86-64/vgm/v4-4-39/lib:/home/alidock/.sw/slc7_x86-64/GEANT4/v10.4.2-2/lib:/home/alidock/.sw/slc7_x86-64/GEANT3/v2-6-8/lib64:/home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib:/home/alidock/.sw/slc7_x86-64/lzma/v5.2.3-8/lib:/home/alidock/.sw/slc7_x86-64/arrow/v0.12.0-alice6-2/lib:/home/alidock/.sw/slc7_x86-64/Python-modules/1.0-25/lib:/home/alidock/.sw/slc7_x86-64/Python-modules/1.0-25/lib64:/home/alidock/.sw/slc7_x86-64/GSL/v1.16-34/lib:/home/alidock/.sw/slc7_x86-64/libxml2/v2.9.3-13/lib:/home/alidock/.sw/slc7_x86-64/OpenSSL/v1.0.2o-8/lib:/home/alidock/.sw/slc7_x86-64/zlib/v1.2.8-45/lib:/home/alidock/.sw/slc7_x86-64/FairMQ/v1.3.8-3/lib:/home/alidock/.sw/slc7_x86-64/DDS/2.2-4/lib:/home/alidock/.sw/slc7_x86-64/msgpack/v3.1.1-3/lib:/home/alidock/.sw/slc7_x86-64/nanomsg/1.1.3-5/lib:/home/alidock/.sw/slc7_x86-64/ZeroMQ/v4.1.5-12/lib:/home/alidock/.sw/slc7_x86-64/boost/v1.68.0-8/lib:/home/alidock/.sw/slc7_x86-64/Python/v2.7.10-42/lib:/home/alidock/.sw/slc7_x86-64/FreeType/v2.6-41/lib:/home/alidock/.sw/slc7_x86-64/libpng/v1.6.34-11/lib:/home/alidock/.sw/slc7_x86-64/GCC-Toolchain/v7.3.0-alice1-7/lib64:/home/alidock/.sw/slc7_x86-64/GCC-Toolchain/v7.3.0-alice1-7/lib:/home/alidock/.sw/slc7_x86-64/FairLogger/v1.2.0-7/lib:.:/home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib:/lib64/tls/x86_64:/lib64/tls:/lib64/x86_64:/lib64:/usr/lib64/tls/x86_64:/usr/lib64/tls:/usr/lib64/x86_64:/usr/lib64
+#0  0x00007f33ce9fa17c in waitpid () from /lib64/libc.so.6
+#1  0x00007f33ce977e52 in do_system () from /lib64/libc.so.6
+#2  0x00007f33cfb0dfcd in TUnixSystem::Exec (shellcmd=<optimized out>, this=0x1fc6570) at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/unix/src/TUnixSystem.cxx:2119
+#3  TUnixSystem::StackTrace (this=0x1fc6570) at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/unix/src/TUnixSystem.cxx:2413
+#4  0x00007f33cab566e5 in cling::MultiplexInterpreterCallbacks::PrintStackTrace() () from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCling.so
+#5  0x00007f33cab561bd in cling_runtime_internal_throwIfInvalidPointer () from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCling.so
+#6  0x00007f33d025374b in ?? ()
+#7  0x00007ffdabdb7ee0 in ?? ()
+#8  0x00007f33d02537c8 in ?? ()
+#9  0x00007f33d02537a0 in ?? ()
+#10 0x00007f33cabbc3b7 in cling::IncrementalExecutor::runStaticInitializersOnce(cling::Transaction const&) () from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCling.so
+#11 0x00007f33cab59f3b in cling::Interpreter::executeTransaction(cling::Transaction&) () from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCling.so
+#12 0x00007f33cabcc183 in cling::IncrementalParser::commitTransaction(llvm::PointerIntPair<cling::Transaction*, 2u, cling::IncrementalParser::EParseResult, llvm::PointerLikeTypeTraits<cling::Transaction*>, llvm::PointerIntPairInfo<cling::Transaction*, 2u, llvm::PointerLikeTypeTraits<cling::Transaction*> > >&, bool) () from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCling.so
+#13 0x00007f33cabcc22b in cling::IncrementalParser::Compile(llvm::StringRef, cling::CompilationOptions const&) () from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCling.so
+#14 0x00007f33cab57eb3 in cling::Interpreter::DeclareInternal(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cling::CompilationOptions const&, cling::Transaction**) const () from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCling.so
+#15 0x00007f33cab57ff1 in cling::Interpreter::declare(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cling::Transaction**) () from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCling.so
+#16 0x00007f33caaec0a6 in TCling::LoadLibraryMap (this=0x2038ef0, rootmapfile=0x39971f0 "/home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/lib/libTPCBase.rootmap") at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/metacling/src/TCling.cxx:5260
+#17 0x00007f33cfa35d6f in TSystem::Load (this=0x1fc6570, module=0x7f33d02a116e "libTPCBase", entry=0x7f33d02a1059 "", system=false) at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/base/src/TSystem.cxx:1893
+#18 0x00007f33d02a26f0 in ?? ()
+#19 0x0000000002043a68 in ?? ()
+#20 0x00007ffdabdb8620 in ?? ()
+#21 0x0000000002ffc058 in ?? ()
+#22 0x00007ffdabdb8508 in ?? ()
+#23 0x00007ffdabdb85e0 in ?? ()
+#24 0x0000000002404e30 in ?? ()
+#25 0x00007ffdabdb8500 in ?? ()
+#26 0x00007ffdabdb84ff in ?? ()
+#27 0x00000000020960e0 in ?? ()
+#28 0x00000000020439e0 in ?? ()
+#29 0x00007f33cfb14ed0 in ?? () at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/unix/src/TUnixSystem.cxx:2781 from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCore.so.6.14
+#30 0x0000000102bcc690 in ?? ()
+#31 0x00007f33cfb14ed0 in ?? () at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/unix/src/TUnixSystem.cxx:2781 from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCore.so.6.14
+#32 0xffffffff02e6de58 in ?? ()
+#33 0x00007f33cfb14ed0 in ?? () at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/unix/src/TUnixSystem.cxx:2781 from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCore.so.6.14
+#34 0xffffffff02e9fc08 in ?? ()
+#35 0x00007f33cfb14ed0 in ?? () at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/unix/src/TUnixSystem.cxx:2781 from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCore.so.6.14
+#36 0xffffffff00000000 in ?? ()
+#37 0x00007f33cfb14ed0 in ?? () at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/unix/src/TUnixSystem.cxx:2781 from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCore.so.6.14
+#38 0xffffffff00000520 in ?? ()
+#39 0x00007f33cfb14ed0 in ?? () at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/unix/src/TUnixSystem.cxx:2781 from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCore.so.6.14
+#40 0x0000000000000012 in ?? ()
+#41 0x00007f33cfb14ed0 in ?? () at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/unix/src/TUnixSystem.cxx:2781 from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCore.so.6.14
+#42 0x0000000100000520 in ?? ()
+#43 0x00007f33cfb14ed0 in ?? () at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/unix/src/TUnixSystem.cxx:2781 from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCore.so.6.14
+#44 0x0000000100000012 in ?? ()
+#45 0x00007f33cfb14ed0 in ?? () at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/unix/src/TUnixSystem.cxx:2781 from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCore.so.6.14
+#46 0x0000000000000015 in ?? ()
+#47 0x00007f33cfb14ed0 in ?? () at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/unix/src/TUnixSystem.cxx:2781 from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCore.so.6.14
+#48 0x0000000000000000 in ?? ()
+Error in <HandleInterpreterException>: Trying to access a pointer that points to an invalid memory address..
+Execution of your code was aborted.
+In file included from G__CCDBDict dictionary payload:27:
+In file included from /home/alidock/.sw/slc7_x86-64/FairMQ/v1.3.8-3/include/fairmq/FairMQDevice.h:13:
+In file included from /home/alidock/.sw/slc7_x86-64/FairMQ/v1.3.8-3/include/fairmq/FairMQTransportFactory.h:17:
+In file included from /home/alidock/.sw/slc7_x86-64/FairMQ/v1.3.8-3/include/fairmq/MemoryResources.h:21:
+In file included from /home/alidock/.sw/slc7_x86-64/boost/v1.68.0-8/include/boost/container/flat_map.hpp:29:
+In file included from /home/alidock/.sw/slc7_x86-64/boost/v1.68.0-8/include/boost/container/detail/flat_tree.hpp:29:
+/home/alidock/.sw/slc7_x86-64/boost/v1.68.0-8/include/boost/container/detail/pair.hpp:132:89: warning: invalid memory pointer passed to a callee:
+static piecewise_construct_t piecewise_construct = BOOST_CONTAINER_DOC1ST(unspecified, *std_piecewise_construct_holder<>::dummy);
+                                                                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/alidock/.sw/slc7_x86-64/boost/v1.68.0-8/include/boost/container/detail/workaround.hpp:71:46: note: expanded from macro 'BOOST_CONTAINER_DOC1ST'
+#define BOOST_CONTAINER_DOC1ST(TYPE1, TYPE2) TYPE2
+                                             ^~~~~
+
+Processing SetIncludePath.C...
+Added 
+ -I/home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/share/Detectors/ITSMFT/ITS/base/include/ -I/home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/share/Detectors/Passive/include/ -I/home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/share/Detectors/ITSMFT/ITS/simulation/include/ -I/home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/share/Detectors/TPC/simulation/include/  -I/home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/share/Detectors/TPC/simulation/ -I/home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/share/Detectors/Base/include/ -I/home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/share/Common/Field/include/ -I/home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/share/Common/MathUtils/include/ -I/home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/share/Detectors/ITSMFT/ITS/reconstruction/include/ -I/home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/share/Detectors/ITSMFT/common/base/include/ -I/home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/share/Detectors/ITSMFT/common/simulation/include/ -I/home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/share/Detectors/ITSMFT/common/reconstruction/include/ -I/home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/share/Detectors/ITSMFT/MFT/base/include/ -I/home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/share/Detectors/ITSMFT/MFT/simulation/include/ -I/home/alidock/.sw/slc7_x86-64/O2/1.0.0-1/share/Detectors/ITSMFT/MFT/reconstruction/include/
+ to include paths
+Processing run_clus_mft.C++(10,100,"TGeant3")...
+Info in <TUnixSystem::ACLiC>: creating shared library /home/alidock/O2/macro/test/./run_clus_mft_C.so
+In file included from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/include/TNamed.h:25:0,
+                 from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/include/TDictionary.h:44,
+                 from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/include/TClass.h:23,
+                 from /home/alidock/O2/macro/test/run_clus_mft_C_ACLiC_dict.cxx:13:
+/home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/include/TObject.h:149:24: warning: 'virtual Int_t TObject::Write(const char*, Int_t, Int_t) const' was hidden [-Woverloaded-virtual]
+    virtual Int_t       Write(const char *name=0, Int_t option=0, Int_t bufsize=0) const;
+                        ^~~~~
+In file included from /home/alidock/.sw/slc7_x86-64/FairRoot/c672f280ec-24/include/FairRun.h:16:0,
+                 from /home/alidock/.sw/slc7_x86-64/FairRoot/c672f280ec-24/include/FairRunAna.h:19,
+                 from /home/alidock/O2/macro/test/./run_clus_mft.C:8,
+                 from /home/alidock/O2/macro/test/run_clus_mft_C_ACLiC_dict.cxx:40:
+/home/alidock/.sw/slc7_x86-64/FairRoot/c672f280ec-24/include/FairRootManager.h:196:25: warning:   by 'virtual Int_t FairRootManager::Write(const char*, Int_t, Int_t)' [-Woverloaded-virtual]
+     Int_t               Write(const char* name=0, Int_t option=0, Int_t bufsize=0);
+                         ^~~~~
+[WARN] FairRun::SetOutputFile() deprecated. Use FairRootFileSink.
+[INFO] ********************************************************************* 
+[INFO] ATTENTION: YOU ARE RUNNING IN SPECIAL MODE OF STORING CLUSTER PATTERN 
+[INFO] ********************************************************************* 
+[INFO] o2::MFT::ClustererTask: MC digits mode: ON | Use MCtruth: ON 
+[INFO] The input consists out of the following trees and files: 
+[INFO]  - o2sim
+[INFO]     - AliceO2_TGeant3.digi_10ev_100mu.root
+[INFO] FairRootFileSink initialized.
+[INFO]  - cbmout
+[INFO]     - AliceO2_TGeant3.clus_10ev_100mu.root
+[INFO] Parameter and input file are available, Assure that basic info is there for the run!
+
+************************************************************* 
+     initialisation for run id 1550467473
+************************************************************* 
+-I- FairRunTimeDB::InitContainer() FairGeoParSet
+Info in <TGeoManager::CloseGeometry>: Geometry loaded from file...
+Info in <TGeoManager::SetTopVolume>: Top volume is cave. Master volume is cave
+Info in <TGeoNavigator::BuildCache>: --- Maximum geometry depth set to 100
+Info in <TGeoManager::Voxelize>: Voxelizing...
+Info in <TGeoManager::CountLevels>: max level = 7, max placements = 105
+Info in <TGeoManager::CloseGeometry>: 48742 nodes/ 23723 volume UID's in FAIR geometry
+Info in <TGeoManager::CloseGeometry>: ----------------modeler ready----------------
+Container FairGeoParSet initialized from ROOT file.
+-I- FairRunTimeDB::InitContainer() FairBaseParSet
+Container FairBaseParSet initialized from ROOT file.
+[INFO] MagFieldContFact::createContainer: Creating mag.field container MagFieldParam
+
+************************************************************* 
+     initialisation for run id 1550467473
+************************************************************* 
+-I- FairRunTimeDB::InitContainer() FairGeoParSet
+-I- FairRunTimeDB::InitContainer() FairBaseParSet
+-I- FairRunTimeDB::InitContainer() MagFieldParam
+Container MagFieldParam initialized from ROOT file.
+creating the field as unmanaged pointer
+[INFO] MagneticField::Print: MagFieldParam:
+[INFO] MagneticField::Print: Solenoid (1*)5 kG, Dipole ON (1) 
+[INFO] MagneticField::Print: Machine B fields for p-p  beam (7000 GeV): QGrad: 22.0002 Dipole: 37.8781
+[INFO] MagneticField::Print: Uses Sol30_Dip6_Hole  of $(O2_ROOT)/share/Common/maps/mfchebKGI_sym.root
+[INFO] o2::MFT::ClustererTask output of full clusters is requested  
+[INFO] o2::MFT::ClustererTask output of compact clusters is not requested  
+[INFO] o2::MFT::ClustererTask | MCTruth: ON 
+[INFO] Loading MFT T2L matrices from TGeo
+Masking of overflow pixels: ON
+Warning in <TTree::Bronch>: FairEventHeader cannot be split, resetting splitlevel to 0
+[INFO] CREATING BRANCH MFTCluster
+[INFO] Creating branch for MFTCluster with address 0x1329d6b0
+[INFO] CREATING BRANCH MFTClusterMCTruth
+[INFO] Creating branch for MFTClusterMCTruth with address 0x1329d708
+[INFO] FairRunAna::Run() After checking, the run will run from event 0 to 11.
+Clusterization timing (w/o disk IO): Real time 0:00:00, CP time 0.000, 2 slices
+
+ *** Break *** segmentation violation
+
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f33ce9fa17c in waitpid () from /lib64/libc.so.6
+#1  0x00007f33ce977e52 in do_system () from /lib64/libc.so.6
+#2  0x00007f33cfb0dfcd in TUnixSystem::Exec (shellcmd=<optimized out>, this=0x1fc6570) at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/unix/src/TUnixSystem.cxx:2119
+#3  TUnixSystem::StackTrace (this=0x1fc6570) at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/unix/src/TUnixSystem.cxx:2413
+#4  0x00007f33cfb10864 in TUnixSystem::DispatchSignals (this=0x1fc6570, sig=kSigSegmentationViolation) at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/unix/src/TUnixSystem.cxx:3644
+#5  <signal handler called>
+#6  __gnu_cxx::new_allocator<o2::ITSMFT::PixelData>::construct<o2::ITSMFT::PixelData, o2::ITSMFT::Digit const*&> (this=<optimized out>, __p=0x2, dig=<optimized out>, this=<optimized out>) at /home/alidock/.sw/SOURCES/O2/1.0.0/0/Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/PixelData.h:30
+#7  std::allocator_traits<std::allocator<o2::ITSMFT::PixelData> >::construct<o2::ITSMFT::PixelData, o2::ITSMFT::Digit const*&> (__a=..., __p=0x2) at /home/alidock/.sw/slc7_x86-64/GCC-Toolchain/v7.3.0-alice1-7/include/c++/7.3.0/bits/alloc_traits.h:475
+#8  std::vector<o2::ITSMFT::PixelData, std::allocator<o2::ITSMFT::PixelData> >::emplace_back<o2::ITSMFT::Digit const*&> (this=this
+entry=0x13a92a70, __args#0=
+0x173266c8: 0x17b01424) at /home/alidock/.sw/slc7_x86-64/GCC-Toolchain/v7.3.0-alice1-7/include/c++/7.3.0/bits/vector.tcc:100
+#9  0x00007f33b199cccc in o2::ITSMFT::DigitPixelReader::getNextChipData (this=0x173266a0, chipData=...) at /home/alidock/.sw/SOURCES/O2/1.0.0/0/Detectors/ITSMFT/common/reconstruction/src/DigitPixelReader.cxx:57
+#10 0x00007f33b199c949 in o2::ITSMFT::DigitPixelReader::getNextChipData (this=<optimized out>, chipDataVec=...) at /home/alidock/.sw/SOURCES/O2/1.0.0/0/Detectors/ITSMFT/common/reconstruction/src/DigitPixelReader.cxx:40
+#11 0x00007f33b199ffee in o2::ITSMFT::Clusterer::process (this=this
+entry=0x132994f0, reader=..., fullClus=0x1329d698, compClus=0x0, labelsCl=0x1329d6d8) at /home/alidock/.sw/SOURCES/O2/1.0.0/0/Detectors/ITSMFT/common/reconstruction/src/Clusterer.cxx:52
+#12 0x00007f33b12c4559 in o2::MFT::ClustererTask::Exec (this=0x13299410, option=<optimized out>) at /home/alidock/.sw/SOURCES/O2/1.0.0/0/Detectors/ITSMFT/MFT/reconstruction/src/ClustererTask.cxx:154
+#13 0x00007f33c1ba3af2 in FairTask::ExecuteTasks (this=0xe9067e0, option=0x7f33c1c1dbf0 "") at /build/workarea/sw/20155978/1/SOURCES/FairRoot/c672f280ec/c672f280ec8382cb2dc10b85c5fa4e64e13c5975/base/steer/FairTask.cxx:209
+#14 0x00007f33c1ba36b0 in FairTask::ExecuteTask (this=0xe9067e0, option=0x7f33c1c1dbf0 "") at /build/workarea/sw/20155978/1/SOURCES/FairRoot/c672f280ec/c672f280ec8382cb2dc10b85c5fa4e64e13c5975/base/steer/FairTask.cxx:173
+#15 0x00007f33c1b91ef8 in FairRunAna::Run (this=0xe9065c0, Ev_start=<optimized out>, Ev_end=11) at /build/workarea/sw/20155978/1/SOURCES/FairRoot/c672f280ec/c672f280ec8382cb2dc10b85c5fa4e64e13c5975/base/steer/FairRunAna.cxx:371
+#16 0x00007f33b3ba355d in run_clus_mft(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) () from /home/alidock/O2/macro/test/run_clus_mft_C.so
+#17 0x00007f33b3ba4785 in run_clus_mft(int, int, TString) () from /home/alidock/O2/macro/test/run_clus_mft_C.so
+#18 0x00007f33d0250070 in ?? ()
+#19 0x00007ffdabdba370 in ?? ()
+#20 0x00007ffdabdba390 in ?? ()
+#21 0x0000000000000015 in ?? ()
+#22 0x00007ffdabdba2b0 in ?? ()
+#23 0x00000000020427f0 in ?? ()
+#24 0x00007f33cab56725 in cling::MultiplexInterpreterCallbacks::EnteringUserCode() () from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCling.so
+#25 0x00007ffdabdba7c0 in ?? ()
+#26 0x00007f33d0250000 in ?? ()
+#27 0x00007f33cab5a860 in cling::Interpreter::RunFunction(clang::FunctionDecl const*, cling::Value*) [clone .part.248] () from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCling.so
+#28 0x00007f33cab5b9ff in cling::Interpreter::EvaluateInternal(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cling::CompilationOptions, cling::Value*, cling::Transaction**, unsigned long) () from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCling.so
+#29 0x00007f33cab5bf6f in cling::Interpreter::process(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cling::Value*, cling::Transaction**, bool) () from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCling.so
+#30 0x00007f33cac06d6d in cling::MetaProcessor::process(llvm::StringRef, cling::Interpreter::CompilationResult&, cling::Value*, bool) () from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCling.so
+#31 0x00007f33caab9fde in HandleInterpreterException (metaProcessor=0x2863700, input_line=<optimized out>, compRes=
+0x7ffdabdba694: cling::Interpreter::kSuccess, result=result
+entry=0x7ffdabdba7c0) at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/metacling/src/TCling.cxx:2060
+#32 0x00007f33caac8731 in TCling::ProcessLine (this=0x2038ef0, line=<optimized out>, error=0x7ffdabdbb7fc) at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/metacling/src/TCling.cxx:2177
+#33 0x00007f33caac04b6 in TCling::ProcessLineSynch (this=0x2038ef0, line=0xe5b0450 ".X  /home/alidock/O2/macro/test/./run_clus_mft.C++(10,100,\"TGeant3\")", error=0x7ffdabdbb7fc) at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/metacling/src/TCling.cxx:3053
+#34 0x00007f33cf9c9a11 in TApplication::ExecuteFile (file=<optimized out>, error=0x7ffdabdbb7fc, keep=<optimized out>) at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/base/src/TApplication.cxx:1157
+#35 0x00007f33cf9c9215 in TApplication::ProcessLine (this=0x1ffff30, line=<optimized out>, sync=<optimized out>, err=0x7ffdabdbb7fc) at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/base/src/TApplication.cxx:1002
+#36 0x00007f33cfe727b2 in TRint::ProcessLineNr (this=this
+entry=0x1ffff30, filestem=filestem
+entry=0x7f33cfe83a3c "ROOT_cli_", line=line
+entry=0x7ffdabdbb800 ".x run_clus_mft.C++(10,100,\"TGeant3\")", error=error
+entry=0x7ffdabdbb7fc) at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/rint/src/TRint.cxx:756
+#37 0x00007f33cfe73f38 in TRint::Run (this=this
+entry=0x1ffff30, retrn=retrn
+entry=false) at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/rint/src/TRint.cxx:416
+#38 0x00000000004009bc in main (argc=<optimized out>, argv=0x7ffdabdbd988) at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/main/src/rmain.cxx:30
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum http://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at http://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#6  __gnu_cxx::new_allocator<o2::ITSMFT::PixelData>::construct<o2::ITSMFT::PixelData, o2::ITSMFT::Digit const*&> (this=<optimized out>, __p=0x2, dig=<optimized out>, this=<optimized out>) at /home/alidock/.sw/SOURCES/O2/1.0.0/0/Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/PixelData.h:30
+#7  std::allocator_traits<std::allocator<o2::ITSMFT::PixelData> >::construct<o2::ITSMFT::PixelData, o2::ITSMFT::Digit const*&> (__a=..., __p=0x2) at /home/alidock/.sw/slc7_x86-64/GCC-Toolchain/v7.3.0-alice1-7/include/c++/7.3.0/bits/alloc_traits.h:475
+#8  std::vector<o2::ITSMFT::PixelData, std::allocator<o2::ITSMFT::PixelData> >::emplace_back<o2::ITSMFT::Digit const*&> (this=this
+entry=0x13a92a70, __args#0=
+0x173266c8: 0x17b01424) at /home/alidock/.sw/slc7_x86-64/GCC-Toolchain/v7.3.0-alice1-7/include/c++/7.3.0/bits/vector.tcc:100
+#9  0x00007f33b199cccc in o2::ITSMFT::DigitPixelReader::getNextChipData (this=0x173266a0, chipData=...) at /home/alidock/.sw/SOURCES/O2/1.0.0/0/Detectors/ITSMFT/common/reconstruction/src/DigitPixelReader.cxx:57
+#10 0x00007f33b199c949 in o2::ITSMFT::DigitPixelReader::getNextChipData (this=<optimized out>, chipDataVec=...) at /home/alidock/.sw/SOURCES/O2/1.0.0/0/Detectors/ITSMFT/common/reconstruction/src/DigitPixelReader.cxx:40
+#11 0x00007f33b199ffee in o2::ITSMFT::Clusterer::process (this=this
+entry=0x132994f0, reader=..., fullClus=0x1329d698, compClus=0x0, labelsCl=0x1329d6d8) at /home/alidock/.sw/SOURCES/O2/1.0.0/0/Detectors/ITSMFT/common/reconstruction/src/Clusterer.cxx:52
+#12 0x00007f33b12c4559 in o2::MFT::ClustererTask::Exec (this=0x13299410, option=<optimized out>) at /home/alidock/.sw/SOURCES/O2/1.0.0/0/Detectors/ITSMFT/MFT/reconstruction/src/ClustererTask.cxx:154
+#13 0x00007f33c1ba3af2 in FairTask::ExecuteTasks (this=0xe9067e0, option=0x7f33c1c1dbf0 "") at /build/workarea/sw/20155978/1/SOURCES/FairRoot/c672f280ec/c672f280ec8382cb2dc10b85c5fa4e64e13c5975/base/steer/FairTask.cxx:209
+#14 0x00007f33c1ba36b0 in FairTask::ExecuteTask (this=0xe9067e0, option=0x7f33c1c1dbf0 "") at /build/workarea/sw/20155978/1/SOURCES/FairRoot/c672f280ec/c672f280ec8382cb2dc10b85c5fa4e64e13c5975/base/steer/FairTask.cxx:173
+#15 0x00007f33c1b91ef8 in FairRunAna::Run (this=0xe9065c0, Ev_start=<optimized out>, Ev_end=11) at /build/workarea/sw/20155978/1/SOURCES/FairRoot/c672f280ec/c672f280ec8382cb2dc10b85c5fa4e64e13c5975/base/steer/FairRunAna.cxx:371
+#16 0x00007f33b3ba355d in run_clus_mft(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) () from /home/alidock/O2/macro/test/run_clus_mft_C.so
+#17 0x00007f33b3ba4785 in run_clus_mft(int, int, TString) () from /home/alidock/O2/macro/test/run_clus_mft_C.so
+#18 0x00007f33d0250070 in ?? ()
+#19 0x00007ffdabdba370 in ?? ()
+#20 0x00007ffdabdba390 in ?? ()
+#21 0x0000000000000015 in ?? ()
+#22 0x00007ffdabdba2b0 in ?? ()
+#23 0x00000000020427f0 in ?? ()
+#24 0x00007f33cab56725 in cling::MultiplexInterpreterCallbacks::EnteringUserCode() () from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCling.so
+#25 0x00007ffdabdba7c0 in ?? ()
+#26 0x00007f33d0250000 in ?? ()
+#27 0x00007f33cab5a860 in cling::Interpreter::RunFunction(clang::FunctionDecl const*, cling::Value*) [clone .part.248] () from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCling.so
+#28 0x00007f33cab5b9ff in cling::Interpreter::EvaluateInternal(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cling::CompilationOptions, cling::Value*, cling::Transaction**, unsigned long) () from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCling.so
+#29 0x00007f33cab5bf6f in cling::Interpreter::process(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cling::Value*, cling::Transaction**, bool) () from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCling.so
+#30 0x00007f33cac06d6d in cling::MetaProcessor::process(llvm::StringRef, cling::Interpreter::CompilationResult&, cling::Value*, bool) () from /home/alidock/.sw/slc7_x86-64/ROOT/v6-14-04-24/lib/libCling.so
+#31 0x00007f33caab9fde in HandleInterpreterException (metaProcessor=0x2863700, input_line=<optimized out>, compRes=
+0x7ffdabdba694: cling::Interpreter::kSuccess, result=result
+entry=0x7ffdabdba7c0) at /build/workarea/sw/20155975/1/SOURCES/ROOT/v6-14-04/v6-14-04/core/metacling/src/TCling.cxx:2060
+===========================================================
